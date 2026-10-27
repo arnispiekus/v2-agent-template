@@ -10,4 +10,4 @@ source files. Licences were checked on the source repository's own
 | systematic-debugging | playbooks/find-the-cause.md | https://github.com/obra/superpowers | MIT | 2026-10-27 |
 | test-driven-development | playbooks/test-first.md | https://github.com/obra/superpowers | MIT | 2026-10-27 |
 
-The source licences do not assign a licence to this private template.
+The template itself is under the MIT licence (see [LICENSE](LICENSE)).

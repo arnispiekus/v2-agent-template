@@ -51,4 +51,4 @@ do not establish these results. Record the receipt and date here after the run.
 ## 8. Credits and licence
 
 [NOTICE](NOTICE.md) records the three adapted methods and their sources.
-The template is private and not yet licensed.
+The template is under the MIT licence (see [LICENSE](LICENSE)).
