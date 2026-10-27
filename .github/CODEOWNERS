@@ -1,0 +1,9 @@
+# Control files: a change here needs the owner's review once the
+# main-guard ruleset requires code-owner review (PATCH-V2-RULESETS-3 part D).
+# A repo made from this template inherits these lines: replace the account.
+/AGENTS.md @arnispiekus
+/CLAUDE.md @arnispiekus
+/KIT.example.md @arnispiekus
+/SECURITY.md @arnispiekus
+/playbooks/ @arnispiekus
+/.github/ @arnispiekus

@@ -1,0 +1,44 @@
+name: Task
+description: One bounded outcome with an observable done test
+title: "Task: "
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: What and who for
+      description: State the person's need and intended outcome.
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why now
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope and output location
+      description: Name files to read, allowed changes and where the result goes.
+    validations:
+      required: true
+  - type: textarea
+    id: done
+    attributes:
+      label: Done test
+      description: Give inputs, expected figures and the person's measure.
+    validations:
+      required: true
+  - type: textarea
+    id: exclusions
+    attributes:
+      label: Out of bounds
+    validations:
+      required: true
+  - type: textarea
+    id: ownership
+    attributes:
+      label: Owner, checker and approvals
+      description: Owner assigns; inspect raw Markdown for hidden comments.
+    validations:
+      required: true

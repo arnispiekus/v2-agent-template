@@ -1,0 +1,16 @@
+# Local capability record
+KIT.md
+# Local credentials and environments
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+# Local system, editor and tool output
+.DS_Store
+.idea/
+.vscode/
+__pycache__/
+*.pyc
+.semgrep/
+gitleaks-report.*

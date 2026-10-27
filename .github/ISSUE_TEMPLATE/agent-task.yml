@@ -1,0 +1,46 @@
+name: Agent task
+description: A bounded contract for an authorised agent
+title: "Agent task: "
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What
+      description: State outcome and permitted files to read or change.
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why
+      description: Name the person this serves and their need.
+    validations:
+      required: true
+  - type: textarea
+    id: output
+    attributes:
+      label: Where the result goes
+      description: Give relative output path and review commit requirements.
+    validations:
+      required: true
+  - type: textarea
+    id: done
+    attributes:
+      label: Done test
+      description: Define observable proof and what cannot be proved here.
+    validations:
+      required: true
+  - type: textarea
+    id: bounds
+    attributes:
+      label: Out of bounds
+      description: State forbidden acts, access limits and stop condition.
+    validations:
+      required: true
+  - type: textarea
+    id: authority
+    attributes:
+      label: Assignment and review authority
+      description: Owner or named app assigns; inspect raw Markdown for hidden comments.
+    validations:
+      required: true
